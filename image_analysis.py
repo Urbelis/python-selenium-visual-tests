@@ -1,7 +1,7 @@
 from selenium import webdriver
 from PIL import Image, ImageDraw
 
-class ScreenCapture:
+class ImageAnalysis:
 
     STAGING_URL = 'https://15min.lt/'
     PRODUCTION_URL = 'https://15min.lt/'
@@ -67,4 +67,4 @@ class ScreenCapture:
 
         return region_total/factor
 
-ScreenCapture()
+ImageAnalysis()
