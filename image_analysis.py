@@ -54,9 +54,7 @@ class ImageAnalysis:
 
     def process_region(self, image, x, y, width, height):
         region_total = 0
-
         factor = 100
-
         for coordinateY in range(y, y+height):
             for coordinateX in range(x, x+width):
                 try:
